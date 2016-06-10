@@ -1,0 +1,38 @@
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+body {
+    font-family: "Helvetica Neue";
+}
+h3 {
+   color: #FFFFFF;
+}
+
+p {
+    font-size: 10px;    
+}
+
+.box { 
+  background-color: #f38630;
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  bottom: 51%;
+  right: 0.05%;
+}
+
+.button {
+padding: 2px 7px 3px;
+font-size: 11px;
+background-color: #f38630;
+color: #ffffff;
+border-radius: 3px;
+border: 1px solid #f38630;
+cursor: pointer;
+}
+
