@@ -5,6 +5,8 @@
 
 <head>
     <link rel="stylesheet" href="file.css">
+    <script src="jquery-3.0.0.min.js"></script>
+    <script src="guessingGame.js"></script>
     <title> Guessing Game Part I </title>
 </head>
 <div class = "box">
@@ -13,17 +15,17 @@
 <div class="content">
 <body>
     <div align = "center">
-        <h3> The Guessing Game </h3>
+        <h2> The Guessing Game </h2>
     </div>
     
     <div align = "center">
-        <input type="number" placeholder="Guess here..." />
-        <input type="button" value = "Submit" class = "button" />
-        <input type="button" value = "Clear" class = "button" />
-    </div>
-    
+        <input type="number" id = "number" placeholder="Guess here..." />
+        <input type="button" id = "submit" value = "Submit" class = "button" />
+        <input type="button" id = "replay" value = "Replay" class = "button" />
+        <input type="button" id = "hint" value = "Hint" class = "button" />
+    </div>    
    <div align = "center">
-        <p> <b> Guess the number that was randomly generated </b> </p>
+        <p> Guess the number between 1 and 100 that was randomly generated</p>
     </div>
 </body>
 </div>
